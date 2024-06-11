@@ -1,0 +1,13 @@
+﻿{
+  "profiles": {
+    "AccelByte.PluginArch.ProfanityFilter.Demo.Server": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:5197;https://localhost:7251",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

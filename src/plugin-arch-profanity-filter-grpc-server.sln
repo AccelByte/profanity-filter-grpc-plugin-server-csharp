@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccelByte.PluginArch.ProfanityFilter.Demo.Server", "AccelByte.PluginArch.ProfanityFilter.Demo.Server\AccelByte.PluginArch.ProfanityFilter.Demo.Server.csproj", "{3AFCC585-D101-4F9D-9912-575E955E72D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccelByte.PluginArch.ProfanityFilter.Demo.Tests", "AccelByte.PluginArch.ProfanityFilter.Demo.Tests\AccelByte.PluginArch.ProfanityFilter.Demo.Tests.csproj", "{3C2FF6E9-B7DA-4A1F-B175-A90D1788700C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AFCC585-D101-4F9D-9912-575E955E72D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AFCC585-D101-4F9D-9912-575E955E72D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AFCC585-D101-4F9D-9912-575E955E72D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AFCC585-D101-4F9D-9912-575E955E72D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C2FF6E9-B7DA-4A1F-B175-A90D1788700C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C2FF6E9-B7DA-4A1F-B175-A90D1788700C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C2FF6E9-B7DA-4A1F-B175-A90D1788700C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C2FF6E9-B7DA-4A1F-B175-A90D1788700C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E1DB1F9-287E-4A20-8441-9E48C531F2E6}
+	EndGlobalSection
+EndGlobal
