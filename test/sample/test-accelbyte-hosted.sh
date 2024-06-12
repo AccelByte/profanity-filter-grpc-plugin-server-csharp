@@ -6,7 +6,7 @@ set -e
 set -o pipefail
 #set -x
 
-APP_NAME=int-test-revo
+APP_NAME=int-test-pf
 
 get_code_verifier() 
 {
