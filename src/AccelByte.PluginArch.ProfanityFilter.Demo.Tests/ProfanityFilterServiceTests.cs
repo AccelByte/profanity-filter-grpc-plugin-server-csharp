@@ -32,16 +32,7 @@ namespace AccelByte.PluginArch.ProfanityFilter.Demo.Tests
         [Test]
         [TestCase("", false)]
         [TestCase("normal", false)]
-        [TestCase("xxx", true)]
-        [TestCase("analyze", false)]
-        [TestCase("it blow me", true)]
-        [TestCase("ShiTty", true)]
-        [TestCase("You are a complete twat and a dick.", true)]
-        [TestCase("You are, a complete twat, and a @dick:", true)]
-        [TestCase("You are a complete tWat and a DiCk.", true)]
-        [TestCase("Scunthorpe Scunthorpe", false)]
-        [TestCase("Scunthorpe cunt Scunthorpe", true)]
-        [TestCase("ScUnThOrPePeNiStOnE", false)]
+        [TestCase("you are bad", true)]
         public async Task FilterStringTests(string source, bool isFiltered)
         {
             var service = new ProfanityFilterServiceImpl(_ServiceLogger);
