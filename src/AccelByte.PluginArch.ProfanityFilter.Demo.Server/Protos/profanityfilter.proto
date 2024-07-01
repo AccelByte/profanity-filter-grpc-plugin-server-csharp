@@ -1,4 +1,4 @@
-﻿syntax = "proto3";
+syntax = "proto3";
 
 package accelbyte.profanityfilter.registered.v1;
 // Version v1.0.0
@@ -15,6 +15,7 @@ service ProfanityFilterService {
 
 message ExtendProfanityValidationRequest {
   string value = 1; // the value needs to be validated
+  string userId = 2; // user id
 }
 
 message ExtendProfanityValidationResponse {

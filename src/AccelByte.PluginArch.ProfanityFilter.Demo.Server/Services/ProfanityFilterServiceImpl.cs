@@ -27,7 +27,7 @@ namespace AccelByte.PluginArch.ProfanityFilter.Demo.Server.Services
         public ProfanityFilterServiceImpl(ILogger<ProfanityFilterServiceImpl> logger)
         {
             _Logger = logger;
-            _Filter = new ProfanityFilterLib();
+            _Filter = new ProfanityFilterLib(new []{ "bad", "ibad", "yourbad" });
         }
 
         public override Task<ExtendProfanityValidationResponse> Validate(ExtendProfanityValidationRequest request, ServerCallContext context)
