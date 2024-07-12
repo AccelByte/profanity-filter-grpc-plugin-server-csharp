@@ -146,4 +146,4 @@ fi
 
 echo '# Testing Extend app using demo script'
 
-GRPC_SERVER_URL="$APP_URL" bash demo.sh
+EXTEND_APP_NAME="$APP_NAME" bash demo.sh
