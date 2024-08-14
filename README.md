@@ -202,7 +202,7 @@ To be able to run this app, you will need to follow these setup steps.
    PLUGIN_GRPC_SERVER_AUTH_ENABLED=true     # Enable or disable access token validation
    ```
 
-   > :exclamation: **In this app, PLUGIN_GRPC_SERVER_AUTH_ENABLED is `true` by default**: If it is set to `false`, th gRPC server can be invoked without an AGS access 
+   > :exclamation: **In this app, PLUGIN_GRPC_SERVER_AUTH_ENABLED is `true` by default**: If it is set to `false`, the gRPC server can be invoked without an AGS access 
    token. This option is provided for development purpose only. It is 
    recommended to enable `gRPC server` access token validation in production 
    environment.
@@ -337,7 +337,7 @@ can use something like [ngrok](https://ngrok.com/).
 
 ### Test Observability
 
-To be able to see the how the observability works in this sample app locally, there are few things that need be setup before performing tests.
+To be able to see the how the observability works in this app locally, there are few things that need be setup before performing tests.
 
 1. Uncomment loki logging driver in [docker-compose.yaml](docker-compose.yaml)
 
@@ -406,4 +406,4 @@ After done testing, you may want to deploy this app to `AccelByte Gaming Service
 
 ## Next Step
 
-Proceed to modify this template project and implement your own custom functions.
+Proceed to modify this project template and implement your own custom functions.
