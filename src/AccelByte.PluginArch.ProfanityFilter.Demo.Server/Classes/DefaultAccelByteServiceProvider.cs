@@ -41,7 +41,7 @@ namespace AccelByte.PluginArch.ProfanityFilter.Demo.Server
                 .UseAutoRefreshForTokenRevocationList()
                 .Build();
 
-            //Sdk.LoginClient(true);
+            Sdk.LoginClient(true);
         }
     }
 }
