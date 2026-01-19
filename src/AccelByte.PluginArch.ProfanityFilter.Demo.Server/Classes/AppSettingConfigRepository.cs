@@ -56,7 +56,7 @@ namespace AccelByte.PluginArch.ProfanityFilter.Demo.Server
             if (appServiceName == null)
                 ServiceName = "extend-app-profanity-filter";
             else
-                ServiceName = $"extend-app-{appServiceName.Trim().ToLower()}";
+                ServiceName = $"extend-app-pf-{appServiceName.Trim().ToLower()}";
 
             string? appResourceName = Environment.GetEnvironmentVariable("APP_RESOURCE_NAME");
             if (appResourceName == null)
